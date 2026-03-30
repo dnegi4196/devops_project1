@@ -1,7 +1,8 @@
 FROM node:18
 
 WORKDIR /app
-COPY . .
+
+COPY app/ .   👈 important change
 
 RUN npm install
 
